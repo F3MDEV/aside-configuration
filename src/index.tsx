@@ -14,17 +14,17 @@ import Icon from './componentAssets/icon/icon';
 
 interface AsideConfigurationProps {
   title?: string;
-  tabOne?:any;
-  tabTwo?:any;
-  tabThree?:any;
-  clickTab?: any;
+  tabOne?: React.ReactNode;
+  tabTwo?: React.ReactNode;
+  tabThree?: React.ReactNode;
+  clickTab?: () => void;
   buttonOneTitle?: string;
   buttonTwoTitle?: string;
   buttonThreeTitle?: string;
-  closedBarContent?: any;
-  clickToogleBar?: any;
-  tabs?: any;
-  openBarContent? : any;
+  closedBarContent?: React.ReactNode;
+  clickToogleBar?: () => void;
+  tabs?: React.ReactNode;
+  openBarContent? : React.ReactNode;
   isBarExtendedProp? : boolean;
 }
 
